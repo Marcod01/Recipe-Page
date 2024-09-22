@@ -22,6 +22,7 @@ p{
     padding: 0;
     margin: 0;
     line-height: 1.5rem;
+    align-self: self-start;
 }
 
 h1{
@@ -44,6 +45,7 @@ h2,h3{
 ul{
     padding: 0 1rem;
     margin: 0;
+    align-self: self-start;
 }
 li{
     padding-left: 1rem;
@@ -88,7 +90,7 @@ td {
     flex-direction: column;
 }
 .content-container,.inner-container,.mobile-container{
-    max-width: 500px;
+    max-width: 900px;
 }
 .inner-container,.mobile-container {
     width: 100%;
@@ -118,6 +120,7 @@ td {
     height: 30%;
     margin: 1.5rem 0;
     padding: 1.3rem 1.5rem;
+    max-height: 180px;
 }
 .preparation-time-header{
    color: hsl(332, 51%, 32%);
@@ -150,7 +153,6 @@ td {
 .macro-amount{
     color: hsl(14, 45%, 36%);
     font-weight: 600;
-
 }
 
 
